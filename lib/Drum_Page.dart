@@ -77,17 +77,17 @@ class _DrumPageState extends State<DrumPage> {
           AnimatedContainer(
             duration: Duration(seconds: 1),
             transform: Matrix4.translationValues(_xOffset, 0, 0),
+
+
+
             child: Text(
               'DRUM PAD <3',
-              style: GoogleFonts.aclonica()
-              TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-
-
-                letterSpacing: 2,
-                decoration: TextDecoration.none,
-              ),
+              style: GoogleFonts.eagleLake(
+                  textStyle: TextStyle(fontSize: 30,
+                    fontWeight: FontWeight.normal,
+                    color: Colors.white,
+                    letterSpacing: 2,
+                    decoration: TextDecoration.none,)),
             ),
           ),
           SizedBox(height: 25),
